@@ -1,0 +1,48 @@
+.header {
+  font-size: calc(18px + 1vw);
+  margin-top: calc(18px + 3vh) !important;
+}
+.body {
+}
+.hstack {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+::placeholder {
+  background-color: #6c757d;
+  border: 1px solid white;
+  text-align: center;
+  color: black;
+}
+:focus {
+  outline: none;
+}
+.div_btn {
+  background-color: rgb(54, 36, 36);
+  color: wheat;
+  text-align: center;
+  width: 100%;
+}
+select {
+  font-size: 35px;
+}
+input {
+  font-size: 35px;
+  outline: none;
+  border: none;
+  direction: rtl;
+}
+.stack {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+}
+.text {
+  padding-right: 20px;
+}
+.footer {
+  font-size: calc(12px + 1vw);
+}
